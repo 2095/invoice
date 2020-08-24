@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+.sidebar ul.components {
+    padding: 150px 50px;
+}
+
+.sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+}
+
+.avatar{
+    height: 250px;
+    width: 250px;
+}
+
+.footer{
+    padding: 50px 50px;
+}
